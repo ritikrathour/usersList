@@ -1,0 +1,31 @@
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px 2rem;
+    border-bottom: 1px solid black;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(255,255,255,.8);
+}
+.nav_bar .logo span{
+    color: red;
+    font-weight: 500;
+}
+.nav_bar .nav_list{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+} 
+.nav_bar .nav_list .list {
+    text-transform: capitalize;
+}
+@media (max-width:400px) {
+    .nav_bar{
+        padding: 20px 1rem;
+    }
+}
