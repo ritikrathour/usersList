@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import './index.css'
 import NavBar from "./layout/nav_bar/NavBar" 
 import Home from './pages/home/Home' 
-import Footer from './layout/footer'
+import Footer from './layout/Footer'
 const App = () => {
   return (
     <>
